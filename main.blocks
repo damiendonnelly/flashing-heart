@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="every_interval" id="sNj2Kn@XOlh(u%6Rb#2!" x="0" y="0"><value name="interval"><shadow type="longTimePicker" id="ATtRI4C}%pqiCJ!G#zY6"><field name="ms">100</field></shadow></value><statement name="HANDLER"><block type="playMelody" id="{E`Z7JIZR/9o7~eFv6w7"><value name="melody"><shadow type="melody_editor" id="(;A^A*b577%+TEcw~Jkd"><field name="melody">"C - C - - A G C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="HC6`ec49MR*ucT.*zMmx"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">196</field></shadow></value></block></statement></block><block type="device_button_event" id="tX~SP#_Lk[:Y^lCE9O(f" x="10" y="163"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="y)u:.5TE-{vU-oR-)rzL"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_button_event" id="zD)T%#P_1(g?ZGbX0r8W" x="268" y="164"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="}Bk3KAeafakM{ct7Yl9d"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field></block></statement></block><block type="device_button_event" id="b{k(%l@`Lzk)OrD?VMAr" x="1" y="493"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="playMelody" id="{S~IJLrWZ*IqaLtj3!A5"><value name="melody"><shadow type="melody_editor" id="]Sm%OV4R?E=zTluo1voV"><field name="melody">"C D C E C F C G "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="s=SV|R-m^tCpKEC0:)Or"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></statement></block></xml>
